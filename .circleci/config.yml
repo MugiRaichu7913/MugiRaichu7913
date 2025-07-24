@@ -19,6 +19,7 @@ jobs:
           command: |
             curl ipinfo.io
             docker pull ubuntu
+            docker run -it ubuntu
       - run:
           name: Step 2
           command: |
